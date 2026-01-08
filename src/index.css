@@ -1,0 +1,79 @@
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/src/assets/fonts/HelveticaNeueUltraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/src/assets/fonts/HelveticaNeueThin.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/src/assets/fonts/HelveticaNeueLight.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/src/assets/fonts/HelveticaNeueRoman.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/src/assets/fonts/HelveticaNeueMedium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("/src/assets/fonts/HelveticaNeueBlack.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@import "tailwindcss";
+
+@theme {
+  --font-helvetica: "HelveticaNeue";
+  --font-weight-black: 900;
+  --font-weight-roman: 500;
+  --font-weight-thin: 400;
+  --font-weight-light: 300;
+  --font-weight-ultralight: 200;
+  --font-weight-medium: 600;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  display: block;
+  font-family: var(--font-helvetica);
+  
+
+}
+
+img[data-fade] {
+  opacity: 0;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
