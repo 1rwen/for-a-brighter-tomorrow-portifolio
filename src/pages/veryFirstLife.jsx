@@ -39,7 +39,7 @@ function Life() {
           </div>
         </div>
       </div>
-        <div className="flex justify-center items-center w-full mt-[100px] lg:-mt-[100px]">
+        <div className="flex justify-center items-center w-full mt-[100px] md:mt-[0px]">
             <LoopingImages />
         </div>
         

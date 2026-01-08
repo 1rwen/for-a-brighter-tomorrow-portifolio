@@ -36,11 +36,11 @@ return (
             </p>
           </Link>
 
-          <Link to="/circle">
+          {/* <Link to="/circle">
             <p className="text-sm font-thin hover:underline cursor-pointer">
               testing
             </p>
-          </Link>
+          </Link> */}
         </div>
 
         {/* PHOTOS */}
