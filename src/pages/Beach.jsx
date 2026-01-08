@@ -7,7 +7,7 @@ import beach2 from '../assets/121125-3.webp'
 import beach3 from '../assets/121125-1.webp'
 import beach4 from '../assets/121125-2.webp'
 import beach5 from '../assets/121125-5.webp'
-import { Page } from "../components/Page";
+import { Page } from "../components/Page.jsx";
 
 
 function Beach() {

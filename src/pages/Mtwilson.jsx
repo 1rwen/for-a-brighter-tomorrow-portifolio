@@ -7,7 +7,7 @@ import mtwilson6 from '../assets/091425-6.webp'
 import mtwilson7 from '../assets/091425-7.webp'
 import { Link } from 'react-router-dom'
 import { IoArrowBackOutline } from "react-icons/io5";
-import { Page } from "../components/Page";
+import { Page } from "../components/Page.jsx";
 
 function Mtwilson() {
     useEffect(() => {

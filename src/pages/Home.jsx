@@ -7,7 +7,7 @@ import homePage4 from '../assets/080425-1.webp'
 import homePage5 from '../assets/121825-7.webp'
 import homePage6 from '../assets/091425-3.webp'
 import React from 'react'
-import { Page } from "../components/Page";
+import { Page } from "../components/Page.jsx";
 
 function Home() {
     useEffect(() => {
