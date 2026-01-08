@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 
-export function Page({ children }: { children: React.ReactNode }) {
+export default function Page({ children }: { children: React.ReactNode }) {
   return (
     <motion.main
       initial={{ opacity: 0 }}
