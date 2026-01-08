@@ -11,7 +11,8 @@ import willa8 from '../assets/121825-8.webp'
 
 import { IoArrowBackOutline } from "react-icons/io5";
 import React from 'react'
-import { Page } from "../components/Page.jsx";
+import Page from "../components/page";
+
 
 function Chair() {
     useEffect(() => {

@@ -6,7 +6,8 @@ import claremont3 from '../assets/111025-4.webp'
 import claremont4 from '../assets/111025-5.webp'
 import claremont5 from '../assets/111025-2.webp'
 import { IoArrowBackOutline } from "react-icons/io5";
-import { Page } from "../components/Page";
+import Page from "../components/page";
+
 
 function Claremont() {
   useEffect(() => {

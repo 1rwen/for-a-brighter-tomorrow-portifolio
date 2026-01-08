@@ -8,7 +8,8 @@ import blockparty6 from '../assets/080425-6.webp'
 import blockparty7 from '../assets/080425-7.webp'
 import { Link } from 'react-router-dom'
 import { IoArrowBackOutline } from "react-icons/io5";
-import { Page } from "../components/Page";
+import Page from "../components/page";
+
 
 function BlockParty() {
   useEffect(() => {

@@ -5,7 +5,8 @@ import erick2 from '../assets/112325-2.webp'
 import erick3 from '../assets/112325-3.webp'
 import { IoArrowBackOutline } from "react-icons/io5";
 import React from 'react'
-import { Page } from "../components/Page.jsx";
+import Page from "../components/page";
+
 
 function Erick() {
     useEffect(() => {
