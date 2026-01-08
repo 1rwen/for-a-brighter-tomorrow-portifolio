@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { IoArrowBackOutline } from "react-icons/io5";
 // import { div } from "framer-motion/client";import { IoArrowBackOutline } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
 
 function about() {
   useEffect(() => {
@@ -35,7 +36,12 @@ function about() {
             alt="tag"
             className="flex justify-center font-medium text-xs mt-[30px] lg:mt-[30px]"
           >
-            for inquiries, veryfirstlife@gmail.com
+            for inquiries, veryfirstlife@gmail.com or direct message on instagram
+          </div>
+          <div className="flex justify-center m-[50px] cursor-pointer hover:opacity-70">
+            <a href="https://www.instagram.com/everything1everwanted/">
+              <FaInstagram />
+            </a>
           </div>
         </div>
       </div>
