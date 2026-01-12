@@ -31,7 +31,7 @@ function Life() {
             alt="about-description"
           >
             <span className="underline font-medium"> what is veryFirstLife? </span> <br></br>
-                veryFirstLife is Randall's personal and hopefully lifelong project. A space where all of his work lives, primarily consisting of photographs, writing, video recordings, and whatever other forms of expression emerge over time. It’s often been difficult for him to explain exactly what veryFirstLife is, but with time, that description has become clearer.
+                veryFirstLife is Randall's personal and hopefullyigi lifelong project. A space where all of his work lives, primarily consisting of photographs, writing, video recordings, and whatever other forms of expression emerge over time. It’s often been difficult for him to explain exactly what veryFirstLife is, but with time, that description has become clearer.
 
                 At its core, veryFirstLife is an extension of Randall’s lived experience. It shifts and adapts alongside whatever season of life he’s currently in. There is no fixed destination or end goal, only a commitment to creating work that is honest, intentional, and true. A space for expression that belongs fully to him, and one that he hopes may someday resonate with others as much as it does with himself.
 
