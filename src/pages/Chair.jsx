@@ -8,6 +8,8 @@ import willa5 from '../assets/121825-5.webp'
 import willa6 from '../assets/121825-6.webp'
 import willa7 from '../assets/121825-7.webp'
 import willa8 from '../assets/121825-8.webp'
+import willa9 from '../assets/121825-9.webp'
+
 
 import { IoArrowBackOutline } from "react-icons/io5";
 import React from 'react'
@@ -39,6 +41,7 @@ function Chair() {
           <img src={willa6} className="mx-auto" width={1600} height={1067}/> 
           <img src={willa7} className="mx-auto" width={1600} height={1067}/> 
           <img src={willa4} className="mx-auto" width={1600} height={1067}/> 
+          <img src={willa9} className="mx-auto" width={1600} height={1067}/> 
         </div>
       </div>
     </Page>

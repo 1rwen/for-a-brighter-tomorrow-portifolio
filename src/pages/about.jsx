@@ -29,7 +29,7 @@ function about() {
             alt="about-description"
           >
             <span className="underline font-medium"> info </span> <br></br>
-            Randall Nguyen resides in Southern California (Inland Empire) and his work focuses on primarily photography but has experience in video editing and wants to get into directing. 
+            Randall resides in Southern California (Inland Empire) and his work focuses on primarily photography but has experience in video editing and wants to get into directing. 
 
           </div>
           <div

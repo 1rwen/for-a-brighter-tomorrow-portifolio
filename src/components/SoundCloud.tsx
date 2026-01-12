@@ -8,7 +8,7 @@ export default function SoundCloud() {
     "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true";
 
   return (
-    <div className="w-full">
+    <div className="w-full lg:-m-[100px] ">
       <div className="relative w-full aspect-[16/9] justify-center items-center flex">
         <iframe
           title="SoundCloud player"

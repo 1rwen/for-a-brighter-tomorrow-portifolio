@@ -25,21 +25,30 @@ function Life() {
         </div>
         <div className="flex justify-center items-center w-[130px] lg:w-[140px] ">
         </div>
-        <div className="w-[50%] lg:w-[40%] mt-[200px]">
+        <div className="w-[50%] lg:w-[40%] ">
           <div
             className="w-[100%] text-xs  "
             alt="about-description"
           >
             <span className="underline font-medium"> what is veryFirstLife? </span> <br></br>
-                veryFirstLife is an external entity that is a memoir of Randall Nguyen's very first time living this thing we call life. It is a multi-facet project such that it has no restrictions and can be anything he wants but primarily focuses on photography, writing, memory recordings, and hopefully much more. He doesn’t quite know what it is and sometimes has a hard time understanding and explaining but that’s the beauty of it, not having limits to holding on what is truly yours. One of the key components of this project is capturing different parts of Randall’s life using a few words that describes how he felt during that time. Some examples are “finally-made-it-to-tomorrow”, “everything-we-ever-wanted”, and “running-away-for-a-better-tomorrow”. There is no end goal to this project but more so an excuse to encapsulate something concrete and honest.
-          <div className="flex justify-center items-center w-full mt-[80px] lg:-mt-[80px]">
+                veryFirstLife is Randall's personal and hopefully lifelong project. A space where all of his work lives, primarily consisting of photographs, writing, video recordings, and whatever other forms of expression emerge over time. It’s often been difficult for him to explain exactly what veryFirstLife is, but with time, that description has become clearer.
+
+                At its core, veryFirstLife is an extension of Randall’s lived experience. It shifts and adapts alongside whatever season of life he’s currently in. There is no fixed destination or end goal, only a commitment to creating work that is honest, intentional, and true. A space for expression that belongs fully to him, and one that he hopes may someday resonate with others as much as it does with himself.
+
+                
+                <div className="flex justify-center items-center m-[30px] font-medium">
+                  "Very first time living, very first time here."
+                </div>
+
+
+          <div className="flex justify-center items-center w-full">
             <SoundCloud />
           </div>
           
           </div>
         </div>
       </div>
-        <div className="flex justify-center items-center w-full mt-[100px] md:mt-[0px]">
+        <div className="flex justify-center items-center w-full">
             <LoopingImages />
         </div>
         

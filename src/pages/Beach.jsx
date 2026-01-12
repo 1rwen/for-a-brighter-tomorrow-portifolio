@@ -7,6 +7,7 @@ import beach2 from '../assets/121125-3.webp'
 import beach3 from '../assets/121125-1.webp'
 import beach4 from '../assets/121125-2.webp'
 import beach5 from '../assets/121125-5.webp'
+import beach6 from '../assets/121125-6.webp'
 import Page from "../components/page";
 
 
@@ -33,6 +34,7 @@ function Beach() {
           <img src={beach4} className="mx-auto" width={1600} height={1067} data-fade /> 
           <img src={beach3} className="mx-auto" width={1600} height={1067} data-fade /> 
           <img src={beach5} className="mx-auto" width={1600} height={1067} data-fade />  
+          <img src={beach6} className="mx-auto" width={1600} height={1067} data-fade />  
         </div>
       </div>
     </Page>
