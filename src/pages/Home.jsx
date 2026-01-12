@@ -65,11 +65,10 @@ return (
             </div>
           </Link>
 
-           
-          <Link to="/erick">
+          <Link to="/chair">
             <div className="relative group">
               <img
-                src={homePage2}
+                src={homePage5}
                 width={1600}
                 height={1067}
                 loading="eager"
@@ -80,7 +79,7 @@ return (
               <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <span className="text-white font-thin text-lg">
-                  erick, november 2025
+                  chair, december 2025
                 </span>
               </div>
             </div>
@@ -106,10 +105,12 @@ return (
             </div>
           </Link>
 
-          <Link to="/chair">
+          
+
+          <Link to="/erick">
             <div className="relative group">
               <img
-                src={homePage5}
+                src={homePage2}
                 width={1600}
                 height={1067}
                 loading="eager"
@@ -120,7 +121,7 @@ return (
               <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <span className="text-white font-thin text-lg">
-                  chair, december 2025
+                  erick, november 2025
                 </span>
               </div>
             </div>
