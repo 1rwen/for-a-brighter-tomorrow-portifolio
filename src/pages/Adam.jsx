@@ -1,13 +1,19 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import erick1 from '../assets/112325-1.webp'
-import erick2 from '../assets/112325-2.webp'
+import Adam1 from '../assets/Adam-1.webp'
+import Adam2 from '../assets/Adam-2.webp'
+import Adam3 from '../assets/Adam-3.webp'
+import Adam4 from '../assets/Adam-4.webp'
+import Adam5 from '../assets/Adam-5.webp'
+
+
+
 import { IoArrowBackOutline } from "react-icons/io5";
 import React from 'react'
 import Page from "../components/page";
 
 
-function Erick() {
+function Adam() {
     useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -25,12 +31,14 @@ function Erick() {
           </Link>
         </div>
         <div className="flex flex-col gap-1">
-          <img src={erick1} className="mx-auto" width={1600} height={1067}/> 
-          <img src={erick2} className="mx-auto" width={1600} height={1067}/> 
+          <img src={Adam2} className="mx-auto" width={1600} height={1067}/>
+          <img src={Adam3} className="mx-auto" width={1600} height={1067}/>  
+          <img src={Adam5} className="mx-auto" width={1600} height={1067}/> 
+          <img src={Adam4} className="mx-auto" width={1600} height={1067}/> 
         </div>
       </div>
     </Page>
   )
 }
 
-export default Erick
+export default Adam

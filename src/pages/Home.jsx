@@ -2,10 +2,13 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import homePage1 from '../assets/121125-4.webp'
 import homePage2 from '../assets/112325-1.webp'
-import homePage3 from '../assets/111025-5.webp'
+import homePage3 from '../assets/adam-2.webp'
 import homePage4 from '../assets/080425-1.webp'
 import homePage5 from '../assets/121825-7.webp'
 import homePage6 from '../assets/091425-3.webp'
+import homePage7 from '../assets/aurora-1.webp'
+import homePage8 from '../assets/auroralouis-2.webp'
+
 import React from 'react'
 import Page from "../components/page";
 
@@ -59,7 +62,27 @@ return (
               <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <span className="text-white font-thin text-lg">
-                  daytona, december 2025
+                  dre, december 2025
+                </span>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/aurora">
+            <div className="relative group">
+              <img
+                src={homePage7}
+                width={1600}
+                height={1067}
+                loading="eager"
+                decoding="async"
+                className="block"
+                alt=""
+              />
+              <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <span className="text-white font-thin text-lg">
+                  aurora, january 2026
                 </span>
               </div>
             </div>
@@ -85,10 +108,10 @@ return (
             </div>
           </Link>
 
-          <Link to="/claremont">
+          <Link to="/auroralouis">
             <div className="relative group">
               <img
-                src={homePage3}
+                src={homePage8}
                 width={1600}
                 height={1067}
                 loading="eager"
@@ -99,13 +122,11 @@ return (
               <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <span className="text-white font-thin text-lg">
-                  color-block, november 2025
+                  aurora and louis, january 2026
                 </span>
               </div>
             </div>
           </Link>
-
-          
 
           <Link to="/erick">
             <div className="relative group">
@@ -121,7 +142,27 @@ return (
               <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 <span className="text-white font-thin text-lg">
-                  erick, november 2025
+                  erick, january 2026
+                </span>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/adam">
+            <div className="relative group">
+              <img
+                src={homePage3}
+                width={1600}
+                height={1067}
+                loading="eager"
+                decoding="async"
+                className="block"
+                alt=""
+              />
+              <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <span className="text-white font-thin text-lg">
+                  adam, january 2026
                 </span>
               </div>
             </div>

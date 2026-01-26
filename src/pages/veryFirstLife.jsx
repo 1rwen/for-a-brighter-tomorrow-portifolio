@@ -48,9 +48,9 @@ function Life() {
           </div>
         </div>
       </div>
-        <div className="flex justify-center items-center w-full">
+        {/* <div className="flex justify-center items-center w-full">
             <LoopingImages />
-        </div>
+        </div> */}
         
     </div>
   );

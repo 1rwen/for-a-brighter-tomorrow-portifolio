@@ -1,13 +1,17 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import erick1 from '../assets/112325-1.webp'
-import erick2 from '../assets/112325-2.webp'
+import auroralouis1 from '../assets/auroralouis-1.webp'
+import auroralouis2 from '../assets/auroralouis-2.webp'
+import auroralouis3 from '../assets/auroralouis-3.webp'
+import auroralouis4 from '../assets/auroralouis-4.webp'
+import auroralouis5 from '../assets/auroralouis-5.webp'
+
 import { IoArrowBackOutline } from "react-icons/io5";
 import React from 'react'
 import Page from "../components/page";
 
 
-function Erick() {
+function Auroralouis() {
     useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -25,12 +29,15 @@ function Erick() {
           </Link>
         </div>
         <div className="flex flex-col gap-1">
-          <img src={erick1} className="mx-auto" width={1600} height={1067}/> 
-          <img src={erick2} className="mx-auto" width={1600} height={1067}/> 
+          <img src={auroralouis2} className="mx-auto" width={1600} height={1067}/>
+          <img src={auroralouis3} className="mx-auto" width={1600} height={1067}/>  
+          <img src={auroralouis4} className="mx-auto" width={1600} height={1067}/> 
+          <img src={auroralouis5} className="mx-auto" width={1600} height={1067}/> 
+          <img src={auroralouis1} className="mx-auto" width={1600} height={1067}/> 
         </div>
       </div>
     </Page>
   )
 }
 
-export default Erick
+export default Auroralouis
