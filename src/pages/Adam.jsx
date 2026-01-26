@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Adam2 from '../assets/Adam-2.webp'
-import Adam3 from '../assets/Adam-3.webp'
-import Adam4 from '../assets/Adam-4.webp'
-import Adam5 from '../assets/Adam-5.webp'
+import Adam2 from '../assets/adam-2.webp'
+import Adam3 from '../assets/adam-3.webp'
+import Adam4 from '../assets/adam-4.webp'
+import Adam5 from '../assets/adam-5.webp'
 
 
 
