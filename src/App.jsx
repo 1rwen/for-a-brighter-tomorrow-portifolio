@@ -15,6 +15,7 @@ import Veryfirstlife from "./pages/veryFirstLife.jsx";
 import Circle from "./pages/loop.jsx";
 import Auroralouis from "./pages/Auroralouis.jsx";
 import Adam from "./pages/Adam.jsx";
+import Newcult from "./pages/new-culture.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/veryfirstlife" element={<Veryfirstlife />} />
           <Route path="/circle" element={<Circle />} />
           <Route path="/auroralouis" element={<Auroralouis />} />
+          <Route path="/newcult" element={<Newcult />} />
         </Routes>
       </AnimatePresence>
       <Analytics />

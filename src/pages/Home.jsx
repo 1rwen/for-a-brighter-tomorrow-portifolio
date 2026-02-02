@@ -8,6 +8,7 @@ import homePage5 from '../assets/121825-7.webp'
 import homePage6 from '../assets/091425-3.webp'
 import homePage7 from '../assets/aurora-1.webp'
 import homePage8 from '../assets/auroralouis-2.webp'
+import homepage9 from '../assets/new-9.webp'
 
 import React from 'react'
 import Page from "../components/page";
@@ -147,6 +148,28 @@ return (
               </div>
             </div>
           </Link>
+          
+          <Link to="/newcult">
+            <div className="relative group">
+              <img
+                src={homepage9}
+                width={1600}
+                height={1067}
+                loading="eager"
+                decoding="async"
+                className="block"
+                alt=""
+              />
+              <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <span className="text-white font-thin text-lg">
+                  new-culture, january 2026
+                </span>
+              </div>
+            </div>
+          </Link>
+
+
 
           <Link to="/adam">
             <div className="relative group">
