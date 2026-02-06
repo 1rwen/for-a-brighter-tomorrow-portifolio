@@ -8,6 +8,7 @@ import Erick from "./pages/Erick.jsx";
 import Mtwilson from "./pages/Mtwilson.jsx";
 import Claremont from "./pages/Claremont.jsx";
 import Chair from "./pages/Chair.jsx";
+import Chair1 from "./pages/Chair-1.jsx";
 import Aurora from "./pages/Aurora.jsx";
 import BlockParty from "./pages/blockparty.jsx";
 import About from "./pages/about.jsx";
@@ -16,6 +17,7 @@ import Circle from "./pages/loop.jsx";
 import Auroralouis from "./pages/Auroralouis.jsx";
 import Adam from "./pages/Adam.jsx";
 import Newcult from "./pages/new-culture.jsx";
+
 
 export default function App() {
   const location = useLocation();
@@ -31,6 +33,7 @@ export default function App() {
           <Route path="/mtwilson" element={<Mtwilson />} />
           <Route path="/erick" element={<Erick />} />
           <Route path="/chair" element={<Chair />} />
+          <Route path="/chair-1" element={<Chair1 />} />
           <Route path="/aurora" element={<Aurora />} />
           <Route path="/blockparty" element={<BlockParty />} />
           <Route path="/about" element={<About />} />

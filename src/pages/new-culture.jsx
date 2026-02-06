@@ -46,6 +46,9 @@ function Aurora() {
           <img src={newcult8} className="mx-auto" width={1600} height={1067}/> 
           <img src={newcult9} className="mx-auto" width={1600} height={1067}/> 
           <img src={newcult10} className="mx-auto" width={1600} height={1067}/> 
+          <div className="flex justify-center items-center m-[30px]">
+            <span> for Vivvene Studios</span>
+          </div>
         </div>
       </div>
     </Page>

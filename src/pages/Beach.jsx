@@ -35,6 +35,9 @@ function Beach() {
           <img src={beach3} className="mx-auto" width={1600} height={1067} data-fade /> 
           <img src={beach5} className="mx-auto" width={1600} height={1067} data-fade />  
           <img src={beach6} className="mx-auto" width={1600} height={1067} data-fade />  
+          <div className="flex justify-center items-center m-[30px]">
+            <span> for Vivvene Studios</span>
+          </div>
         </div>
       </div>
     </Page>

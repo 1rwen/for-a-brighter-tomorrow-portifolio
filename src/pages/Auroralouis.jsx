@@ -5,6 +5,7 @@ import auroralouis2 from '../assets/auroralouis-2.webp'
 import auroralouis3 from '../assets/auroralouis-3.webp'
 import auroralouis4 from '../assets/auroralouis-4.webp'
 import auroralouis5 from '../assets/auroralouis-5.webp'
+import auroralouis6 from '../assets/auroralouis-6.webp'
 
 import { IoArrowBackOutline } from "react-icons/io5";
 import React from 'react'
@@ -30,6 +31,7 @@ function Auroralouis() {
         </div>
         <div className="flex flex-col gap-1">
           <img src={auroralouis2} className="mx-auto" width={1600} height={1067}/>
+          <img src={auroralouis6} className="mx-auto" width={1600} height={1067}/>
           <img src={auroralouis3} className="mx-auto" width={1600} height={1067}/>  
           <img src={auroralouis4} className="mx-auto" width={1600} height={1067}/> 
           <img src={auroralouis5} className="mx-auto" width={1600} height={1067}/> 
