@@ -169,7 +169,7 @@ return (
                 </span>
               </div>
             </div>
-          </Link>slsl
+          </Link>
 
           <Link to="/adam">
             <div className="relative group">
