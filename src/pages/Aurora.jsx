@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import aurora1 from '../assets/aurora-1.webp'
 import aurora2 from '../assets/aurora-2.webp'
-import aurora3 from '../assets/aurora-3.webp'
 import aurora4 from '../assets/aurora-4.webp'
 import aurora5 from '../assets/aurora-5.webp'
 import aurora6 from '../assets/aurora-6.webp'
@@ -36,7 +35,6 @@ function Aurora() {
         <div className="flex flex-col gap-1">
           <img src={aurora1} className="mx-auto" width={1600} height={1067}/> 
           <img src={aurora2} className="mx-auto" width={1600} height={1067}/>
-          <img src={aurora3} className="mx-auto" width={1600} height={1067}/>  
           <img src={aurora4} className="mx-auto" width={1600} height={1067}/> 
           <img src={aurora5} className="mx-auto" width={1600} height={1067}/> 
           <img src={aurora6} className="mx-auto" width={1600} height={1067}/> 

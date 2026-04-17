@@ -16,6 +16,7 @@ import Veryfirstlife from "./pages/veryFirstLife.jsx";
 import Circle from "./pages/loop.jsx";
 import Auroralouis from "./pages/Auroralouis.jsx";
 import Adam from "./pages/Adam.jsx";
+import Mylee from "./pages/mylee.jsx";
 import Newcult from "./pages/new-culture.jsx";
 
 
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/erick" element={<Erick />} />
           <Route path="/chair" element={<Chair />} />
           <Route path="/chair-1" element={<Chair1 />} />
+          <Route path="/mylee" element={<Mylee />} />
           <Route path="/aurora" element={<Aurora />} />
           <Route path="/blockparty" element={<BlockParty />} />
           <Route path="/about" element={<About />} />

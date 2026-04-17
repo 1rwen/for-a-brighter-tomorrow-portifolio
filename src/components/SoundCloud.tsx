@@ -1,6 +1,6 @@
 export default function SoundCloud() {
   const trackUrl =
-    "https://soundcloud.com/alphieafterlife/yourinmynotes";
+    "https://soundcloud.com/reserrvv/my-autumn-wish-list-feat-swords2-2?in=reserrvv/sets/cest-la-vie-ep";
 
   const src =
     "https://w.soundcloud.com/player/?url=" +

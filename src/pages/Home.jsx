@@ -9,7 +9,8 @@ import homePage6 from '../assets/091425-3.webp'
 import homePage7 from '../assets/aurora-1.webp'
 import homePage8 from '../assets/auroralouis-2.webp'
 import homepage9 from '../assets/new-9.webp'
-import homePage10 from '../assets/111025-5.webp'
+import homePage10 from '../assets/erickmarch-5.webp'
+import homePage11 from '../assets/my04-1.webp'
 
 import React from 'react'
 import Page from "../components/page";
@@ -27,7 +28,7 @@ return (
       <div className="flex flex-col gap-1 max-w-[900px] w-full">
         {/* FIXED HEADER (LEFT SIDE) */}
         <div className="fixed top-0 left-0 p-4 z-50">
-          <div className="font-medium">somethingbrighter&Higher</div>
+          <div className="font-medium">finallyfreeatlast</div>
 
           <Link to="/veryFirstLife">
             <p className="text-sm font-thin hover:underline cursor-pointer">
@@ -69,6 +70,28 @@ return (
               </div>
             </div>
           </Link>
+
+          
+
+          <Link to="/erick">
+            <div className="relative group">
+              <img
+                src={homePage10}
+                width={1600}
+                height={1067}
+                loading="eager"
+                decoding="async"
+                className="block"
+                alt=""
+              />
+              <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <span className="text-white font-thin text-lg">
+                  erick, march 2026
+                </span>
+              </div>
+            </div>
+          </Link>
           
 
           <Link to="/aurora">
@@ -91,6 +114,9 @@ return (
             </div>
           </Link>
 
+          
+            
+
           <Link to="/chair">
             <div className="relative group">
               <img
@@ -110,6 +136,30 @@ return (
               </div>
             </div>
           </Link>
+
+          <Link to="/mylee">
+            <div className="relative group">
+              <img
+                src={homePage11}
+                width={1600}
+                height={1067}
+                loading="eager"
+                decoding="async"
+                className="block"
+                alt=""
+              />
+              <div className="absolute inset-0 bg-[#8F8F8F] opacity-0 hover:opacity-20 transition-opacity duration-400 group-hover:opacity-20" />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <span className="text-white font-thin text-lg">
+                  mylee, march 2026
+                </span>
+              </div>
+            </div>
+          </Link>
+
+
+          
+          
 
           <Link to="/auroralouis">
             <div className="relative group">
@@ -131,7 +181,7 @@ return (
             </div>
           </Link>
 
-          <Link to="/erick">
+          {/* <Link to="/erick">
             <div className="relative group">
               <img
                 src={homePage2}
@@ -149,7 +199,7 @@ return (
                 </span>
               </div>
             </div>
-          </Link>
+          </Link> */}
           
           <Link to="/newcult">
             <div className="relative group">
